@@ -11,6 +11,9 @@ package com.mycompany.and_y_eso;
 public class And_y_eso {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+  enum Talla {s,m,l,xl}//con corchetes IMPORTANTE
+Talla  MiTalla;//creo mi talla de una talla
+MiTalla=Talla.m;//digo que mi talla es la m de esa enumeracion
+        System.out.println("la talla es " + MiTalla);
     }
 }
